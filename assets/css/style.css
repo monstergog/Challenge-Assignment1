@@ -1,4 +1,4 @@
-/*Defaults all alements with the following settings*/
+/*Defaults all elements with the following settings*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,6 +9,15 @@
 body {
     background-color: #d9dcd6;
     color: #ffffff;
+}
+
+/*Sets spacing, alignment, font, and size for "nav"*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 /*Header padding, font, and color*/
@@ -27,15 +36,6 @@ body {
 /*Colors "seo" as part of "logo"*/
 .header h1 .seo {
     color: #d9dcd6;
-}
-
-/*Sets spacing, alignment, font, and size for "nav"*/
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
 }
 
 /*Sets inline list of "nav" links*/
@@ -58,23 +58,6 @@ a {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-/*Sets all "p" element font size*/
-p {
-    font-size: 16px;
-}
-
-/*Adjusts images within "content" to left*/
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/*Adjusts images within "content" to right*/
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 /*Sets space for "content" elements*/
@@ -102,6 +85,23 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
+}
+
+/*Adjusts images within "content" to left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Adjusts images within "content" to right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Sets all "p" element font size*/
+p {
+    font-size: 16px;
 }
 
 /*Sets space, size, font, and background color for "benefits"*/
